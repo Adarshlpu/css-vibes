@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <!-- <textarea name="area" id="ar" cols="30" rows="10"> -->
+        <center>
+    <fieldset>
+        
+    <legend>Name</legend>
+    <!-- <textarea name="lang" id="prev" cols="30" rows="10"></textarea> -->
+<label for="first">First name:</label>
+<input type="text" id="first" name="firstname">
+<label for="lastname">Last name:</label>
+<input type="text" id="lastname" name="lastname">
+
+</fieldset>
+</center>
+<fieldset>
+    <legend >Gender</legend>
+    <input type="radio" id="gender" name="value" value="Male">
+    <label for="gender">Male</label>
+    <input type="radio" id="gende" name="value" value="feMale">
+    <label for="gende">Female</label>
+</fieldset>
+<fieldset>
+    <legend>Courses</legend>
+    <input type="checkbox" id="courses" name="value" value="html">
+    <label for="courses">Html</label>
+    <input type="checkbox" id="courses" name="value" value="css">
+    <label for="courses">Css</label>
+    <input type="checkbox" id="courses" name="value" value="PHP">
+    <label for="courses">PHP</label>
+</fieldset>
+<fieldset>
+    <legend>Contact details</legend>
+    <label for="contact">Email Address</label>
+    <input type="email" id="contact" name="value" value="adarsh3731@gmail.com">
+    <label for="contact">Contact Number</label>
+    <input type="text" id="contact" name="value" value="7759966591">
+</fieldset>
+<fieldset>
+    <legend>submit</legend>
+    <input type="submit" value="submit">
+</fieldset>
+<fieldset>
+    <legend>date</legend>
+    <input type="date" value="04/12/2000">
+</fieldset>
+<!-- </textarea> -->
+<fieldset>
+    <legend>
+        select the type of cars
+    </legend>
+    <label for="cars">Choose a cars:</label>
+    <select name="cars" id="cars">
+    <option value="volvo">volvo</option>
+    <option value="audi">Audi</option>
+    <option value="kia">Kia</option>
+    <option value="Suzuki">Suzuki</option>
+    <option value="Creta">Creta</option>
+</select>
+<input type="submit" value="submit">
+</fieldset>
+<fieldset>
+    <legend>subject</legend>
+    <select name="subjct" id="subject" size="3" multiple >
+        <option value="Mathematics">Mathematics</option>
+        <option value="physics">Physics</option>
+        <option value="Chemistry">Chemistry</option>
+        <option value="polity">Polity</option>
+    </select>
+</fieldset>
+<fieldset>
+    <legend>Textarea</legend>
+    <textarea name="message" id="mess" cols="30" rows="10">
+        <p>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit</strong>. Officiis, quidem?</p>
+    </textarea>
+</fieldset>
+<!-- <fieldset><legend>password</legend></fieldset> -->
+<fieldset><legend><strong>Button</strong></legend>
+<button type="button" onclick="alert('hello ,Everyone we are performing the operation on forms ')" >clickme!</button>
+</fieldset>
+<fieldset><legend><marquee behavior="" direction="">
+    Password</legend></marquee>
+<label for="web">password</label>
+<input type="password" id="web" name="web" placeholder="abc@123">
+<input type="submit" value="submit">
+</fieldset>
+ <!-- not able to perform datalist -->
+
+
+</body>
+</html>

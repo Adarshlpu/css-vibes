@@ -1,0 +1,21 @@
+
+/* #rw1 { 
+    background-color: red;
+}
+
+#rw1:hover {
+    background-color: green;
+}
+*/
+#rw1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 4s;
+  }
